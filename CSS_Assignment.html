@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS-Cascading Style Sheets</title>
+<style>
+	body {
+		background-color: #CCCC99;
+		text-color: #343434;
+	}
+	#wrapper {
+			width:1500px;
+			margin-left:auto;
+			margin-right:auto;
+			background-color:#E1E1E1;
+			border:solid 5px #1c87c9;
+border-top-left-radius:12px;
+border-top-right-radius:12px;
+border-bottom-left-radius:12px;
+border-bottom-right-radius:12px;
+			}
+	header {
+		height: 200px;
+		text-align: center;
+		line-height: 150px;
+		background-color: #CFCFCF;
+		border:solid 3px #000000;
+border-top-left-radius:12px;
+border-top-right-radius:12px;
+border-bottom-left-radius:12px;
+border-bottom-right-radius:12px;		
+			}
+	nav {
+		background-color: #D4CDCD;
+		height: 80px;
+		border:solid 3px #000000;
+			border-top-left-radius:12px;
+			border-top-right-radius:12px;
+			border-bottom-left-radius:12px;
+			border-bottom-right-radius:12px;
+	}
+	main {
+		width: 60%;
+		background-color:#F4EFEF;
+		margin-left: 20px;
+		margin-right: 20px;
+		border:solid 5px #D4CDCD;
+		padding-top: 2px;
+		padding-right: 2px;
+		padding-bottom: 0px;
+		padding-left: 2px;
+		float:left;
+	}
+	margin-section {
+		background-color: #D4CDCD;
+		border: dotted #DC0104;
+	}
+	
+	aside {
+		width: 36%;
+		float: right;
+			background-color: #D4CDCD;
+			border:solid 3px #000000;
+			border-top-left-radius:12px;
+			border-top-right-radius:12px;
+			border-bottom-left-radius:12px;
+			border-bottom-right-radius:12px;
+	}
+	footer {
+			clear: both;
+			height: 100px;
+			border: solid #000000;
+			background-image: url("footer100.png")
+	}
+		
+	h3 {
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		font-style: normal;
+		font-variant: normal;
+		font-weight:600;
+		text-decoration: none;
+		text-align: center;
+		line-height: normal;
+	}
+	
+		.stand-out-style {
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		background-color: darkgrey;
+		font-color: lightgrey;
+		margin-left: 30px;
+		padding: 5px;
+		font-weight: 400;
+		font-style: italic;
+	}
+	#image {
+			list-style-image: url("smiley.gif");
+							}
+	a:link {
+		text-decoration: none;
+		background-color: #E0999A;
+		border: thin solid;
+		border-color: #E42E31;
+		width: 150px;
+		padding-right: 3px;
+		padding-left: 3px;
+		text-align: left;
+		color: #31B05F;
+	
+a:visited	{
+			color:rgb(0, 0, 0);
+			background-color:rgba(0, 204, 102, 0);
+			text-decoration:none;
+			}
+a:hover	{
+		color:rgb(0, 0, 0);
+		background-color:#CFCFCF;
+		text-decoration:underline;
+		}
+a:active	{
+			color:rgb(0, 128, 0);
+			background-color:rgba(0, 204, 102, 0);
+			text-decoration:none;
+			}
+
+	</style>
+</head>
+
+<body>
+	<div id="wrapper">
+	<header><h1>CSS Cascading Style Sheets</h1></header>
+	<nav>
+		<h2>Nav</h2>
+		<a href="index.html">Home ¦</a>
+		<a href="#">Link1 ¦</a>
+		<a href="#">Link2 ¦</a>
+		<a href="#">Link3 ¦</a>
+		</nav>
+	<main>
+		<h2>The Main</h2>
+		<section><h3>This is my h3 tag style.</h3></section>
+		<section><p class="stand-out-style">Stand out style applied in this paragraph. Stand out style applied in this paragraph. Stand out style applied in this paragraph.</p></section>
+		<section>
+		  <ul id="image">
+			<li>Car</li>
+			<li>Train</li>
+			<li>Plane</li>
+			<li>Bike</li>
+			</ul>
+	  </section>
+		
+		
+	  </main>
+	<aside><h2>Aside</h2></aside>
+	<footer><h2>Footer</h2></footer>
+		</div>
+	
+	
+</body>
+</html>
